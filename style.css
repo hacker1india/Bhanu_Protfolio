@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00ffd5;
+}
+
+.hero {
+  background: linear-gradient(120deg, #000000, #333333);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.typing {
+  color: #00ffd5;
+  font-weight: bold;
+}
+
+.content-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills li {
+  background: #00ffd5;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  list-style: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  background: #00ffd5;
+  color: #000;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #00e6bf;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+}
